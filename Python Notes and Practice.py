@@ -184,4 +184,9 @@ for x in languages:
 for x in "HTML5":
     print(x)
 
-# QuerySets
+# Wargs and Kwargs
+#Args = Arguments Single Asterik
+#Kwargs = Keyword Arguments  Double Asterik
+#Kwargs = Key,Value Syntax
+
+
