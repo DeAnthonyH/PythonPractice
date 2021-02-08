@@ -68,8 +68,23 @@ print(tinydict.keys())  # Prints all the keys
 print(tinydict.values())  # Prints all the values
 
 # Dictionaries Pop
-FullStackDeveloper ={'Name': 'DeAnthony', 'Age': 24, 'Languages':['Python','Django','Flask']}
+FullStackDeveloper = {'Name': 'DeAnthony', 'Age': 24, 'Languages': ['Python', 'Django', 'Flask']}
 print(FullStackDeveloper['Name'])
+FullStackDeveloper.pop('Age')
+
+# Dictionaries Update
+d = {1: 'HTML', 2: 'CSS3'}
+d1 = {3: 'JavaScript'}
+
+# Updates the value of 2
+d.update(d1)
+print(d)
+
+d1 = {3: 'JavaScript'}
+
+# adds element with key 3
+d.update(d1)
+print(d)
 
 
 # TypesOfOperators
