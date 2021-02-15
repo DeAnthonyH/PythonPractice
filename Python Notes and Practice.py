@@ -204,4 +204,13 @@ for x in "HTML5":
 #Kwargs = Keyword Arguments  Double Asterik
 #Kwargs = Key,Value Syntax
 
+def FirstArgument():
+    print ("This is going to be a list of arguments for my function")
+    Listing = ["This is my list", 2 , "Another part of my list"]
+    print ("This is going to be the end of my function")
+
+print (FirstArgument)
+
+#Concatenation
+
 
