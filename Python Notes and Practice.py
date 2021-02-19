@@ -167,13 +167,12 @@ Old = 300
 New <= Old
 
 # Functions
+def myfunction():
+   print('My Name is DeAnthony Hatter')
+   print('I am 24 years old')
+   print('My dream job is to be Web,Mobile,Native Developer')
 
-
-def function1():
-    print("This is just my first function")
-    print("I coded all damn night")
-    print("I gotta find a better job")
-    print("God knows we need more than enough in this life")
+myfunction()
 
 
 # Conditionals/If-Else Statements and Booleans
@@ -204,12 +203,6 @@ for x in "HTML5":
 #Kwargs = Keyword Arguments  Double Asterik
 #Kwargs = Key,Value Syntax
 
-def FirstArgument():
-    print ("This is going to be a list of arguments for my function")
-    Listing = ["This is my list", 2 , "Another part of my list"]
-    print ("This is going to be the end of my function")
-
-print (FirstArgument)
 
 #Concatenation
 
